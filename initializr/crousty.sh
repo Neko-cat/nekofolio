@@ -1,0 +1,1 @@
+sass --watch scss/_bootstrap.scss:css/main.css

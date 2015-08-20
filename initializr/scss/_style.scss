@@ -1,0 +1,181 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300|Oswald:700,300);
+
+//Colors
+
+$white:#FFF;
+$grey:#d2cfcf;
+$lblue:#6bdfeb;
+$blue:#2e4555;
+$green:#9adf85;
+$red:#c30827;
+
+/*-------------------------------
+             GENERAL 
+-------------------------------*/
+
+body {
+  background: url(../img/banquise.png) no-repeat;
+  background-position: bottom;
+  background-color: $blue;
+  color: $lblue;
+  font-family: 'Oswald', sans-serif;
+}
+.home-screen img {
+  width: 100%;
+  height: auto;
+}
+.clear {
+  clear: both;
+}
+.container { max-width:748px; }
+
+.screen { width: 100%; }
+
+h2 {
+  width: 76.5px;
+
+  border-bottom: 3px solid $lblue;
+
+  font-weight: 700;
+  font-size: 24px;
+}
+h3 {
+  margin:10px 0 20px 0;
+
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+hr {
+  margin:0 0 30px 0;
+  position: relative;
+  top: -10px;
+
+  border-color: $lblue;
+}
+
+/*-------------------------------
+            TRAVAUX 
+-------------------------------*/
+
+.cadre { margin-top: 10px; }
+
+.wrapper-travaux {
+  padding: 3px;
+
+  border-bottom: 6px solid $green;
+
+  background-color: $white;
+}
+.carre {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+nav {
+  text-align: center;
+  font-size: 16px;
+}
+
+ul { padding: 0; }
+
+li {
+  display: inline-block;
+
+  list-style-type: none;
+  cursor: pointer;
+}
+li:not(:last-child):after {
+  content: ' / ';
+}
+
+/*-------------------------------
+             PROFIL 
+-------------------------------*/
+
+.profil {
+  margin-bottom: 50px;
+  p {
+    font-size: 20px;
+    text-decoration: underline;
+  }
+  .profil-passion,.profil-techno {
+    display: inline-block;
+    text-align: center;
+  }
+  .profil-passion {width: 39%;}
+  .profil-techno{width: 60%;}
+}
+
+/*-------------------------------
+       CONTACT FORMULAIRE
+-------------------------------*/
+
+input[type=text],textarea {
+  width: 100%;
+  
+  border: 1px solid $lblue;
+
+  background-color: $white;
+  
+  color: $lblue;
+  font-family: 'Lato', sans-serif;
+}
+input[type=submit],input[type=text],textarea { padding: 5px; }
+input[type=submit] {
+  width: 20%;
+  margin: 0 40%;
+
+  border: 1px solid $lblue;
+
+  background-color: $lblue;
+  
+  color: $white;
+}
+input[type=submit]:hover {
+  background-color:$white;
+  color: $lblue;
+}
+::-webkit-input-placeholder { color: $grey; }
+
+:-moz-placeholder { color: $grey; } /* Firefox 18- */
+
+::-moz-placeholder { color: $grey; } /* Firefox 19+ */
+
+:-ms-input-placeholder { color: $grey; }
+
+textarea {
+  resize:none;
+  height: 100px;
+}
+.wrong {border: 1px solid $red !important;}
+.false,.true { 
+  display: none;
+  padding: 5px;
+
+  background-color:$red;
+
+  color:$white;
+  font-weight:300;
+  text-align: center;
+}
+.true {background-color:$green;}
+/*-------------------------------
+          SMALL SCREEN
+-------------------------------*/
+
+@media (max-width: 992px) {
+	.container {
+		max-width:450px;
+	}
+}
+
+/*-------------------------------
+          LARGE SCREEN
+-------------------------------*/
+
+@media (min-width: 992px) {
+  input[type=text],textarea {
+    width: 50%;
+    margin: 0 25%;
+  }
+}
