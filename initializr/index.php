@@ -73,12 +73,6 @@
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-    <div class="true">
-      <p>Votre message est bien envoyé.</p>
-    </div>
-    <div class="false">
-      <p>Votre message n'a pas été envoyé :(</p>
-    </div>
     <div class="home-screen">
       <img src="img/bg.jpg" alt="">
     </div>
@@ -95,10 +89,10 @@
           </ul>
         </nav>
         <div class="row">
-          <div class="col-xs-offset-3 col-sm-offset-0 col-xs-6 col-sm-4 col-md-4 cadre cadre-web">
+          <div class="col-xs-offset-3 col-sm-offset-0 col-xs-6 col-sm-4 col-md-4 cadre cadre-pao">
             <div class="wrapper-travaux">
-              <img class="screen" src="img/photo.jpg" alt="montagne">
-              <h3>Titre de l'objet</h3>
+              <a href="img/kakemono.jpg" data-toggle="lightbox" data-title="Conférence sur la COP21 organisée par Toute l'Europe" data-footer= "J'ai réalisé l'intégralité de la campagne graphique (kakémono, bannière, poster, pochette cartonnée...)"><img class="screen" src="img/cop21_min.jpg" alt="montagne"></a>
+              <h3>Event orgnisé par Toute l'Europe</h3>
               <div class="outils">
                 <img class="carre" src="img/outil.jpg" alt="">
                 <img class="carre" src="img/outil.jpg" alt="">
@@ -108,8 +102,8 @@
           </div>
           <div class="col-xs-offset-3 col-sm-offset-0 col-xs-6 col-sm-4 col-md-4 cadre cadre-pao">
             <div class="wrapper-travaux">
-              <img class="screen" src="img/photo.jpg" alt="montagne">
-              <h3>Titre de l'objet</h3>
+              <a href="img/coverFB_elecbrit.jpg" data-toggle="lightbox" data-title="Bannière sur les élections britanniques"><img class="screen" src="img/cover_elecbrit_min.jpg" alt="montagne"></a>
+              <h3>Elections britanniques</h3>
               <div class="outils">
                 <img class="carre" src="img/outil.jpg" alt="">
                 <img class="carre" src="img/outil.jpg" alt="">
@@ -117,10 +111,10 @@
               </div>
             </div>
          </div>
-          <div class="col-xs-offset-3 col-sm-offset-0 col-xs-6 col-sm-4 col-md-4 cadre cadre-photo">
+          <div class="col-xs-offset-3 col-sm-offset-0 col-xs-6 col-sm-4 col-md-4 cadre cadre-pao">
             <div class="wrapper-travaux">
-              <img class="screen" src="img/photo.jpg" alt="montagne">
-              <h3>Titre de l'objet</h3>
+              <a href="img/dataviz_terrorisme.jpg" data-toggle="lightbox" data-title="Datavisualisation sur le terrorisme en Europe"><img class="screen" src="img/dataviz_terrorisme_min.jpg" alt="montagne"></a>
+              <h3>Datavisualisation terrorisme</h3>
               <div class="outils">
                 <img class="carre" src="img/outil.jpg" alt="">
                 <img class="carre" src="img/outil.jpg" alt="">
@@ -130,8 +124,52 @@
           </div>
           <div class="col-xs-offset-3 col-sm-offset-0 col-xs-6 col-sm-4 col-md-4 cadre cadre-pao">
             <div class="wrapper-travaux">
-              <img class="screen" src="img/photo.jpg" alt="montagne">
-              <h3>Titre de l'objet</h3>
+              <a href="img/grece.jpg" data-toggle="lightbox" data-title="Datavisualisation réalisée avant le référendum grec"><img class="screen" src="img/dataviz_grece_min.jpg" alt="montagne"></a>
+              <h3>Datavisualisation Grèce</h3>
+              <div class="outils">
+                <img class="carre" src="img/outil.jpg" alt="">
+                <img class="carre" src="img/outil.jpg" alt="">
+                <img class="carre" src="img/outil.jpg" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-offset-3 col-sm-offset-0 col-xs-6 col-sm-4 col-md-4 cadre cadre-pao">
+            <div class="wrapper-travaux">
+              <a href="img/dataviz_numerique.jpg" data-toggle="lightbox" data-title="Datavisualisation sur l'Europe et le numérique"><img class="screen" src="img/dataviz_numerique_min.jpg" alt="montagne"></a>
+              <h3>Datavisualisation Numérique</h3>
+              <div class="outils">
+                <img class="carre" src="img/outil.jpg" alt="">
+                <img class="carre" src="img/outil.jpg" alt="">
+                <img class="carre" src="img/outil.jpg" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-offset-3 col-sm-offset-0 col-xs-6 col-sm-4 col-md-4 cadre cadre-pao">
+            <div class="wrapper-travaux">
+              <a href="img/couv.jpg" data-toggle="lightbox" data-title="Illustration personnelle en low poly"><img class="screen" src="img/couv_min.jpg" alt="montagne"></a>
+              <h3>Illustration low poly</h3>
+              <div class="outils">
+                <img class="carre" src="img/outil.jpg" alt="">
+                <img class="carre" src="img/outil.jpg" alt="">
+                <img class="carre" src="img/outil.jpg" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-offset-3 col-sm-offset-0 col-xs-6 col-sm-4 col-md-4 cadre cadre-web">
+            <div class="wrapper-travaux">
+              <a href="img/etoile.jpg" data-toggle="lightbox" data-title="Thème codé 'from scratch' avec underscore et migration du blog de dotclear vers Wordpress"><img class="screen" src="img/etoile_min.jpg" alt="montagne"></a>
+              <h3>Refonte du blog Etoile</h3>
+              <div class="outils">
+                <img class="carre" src="img/outil.jpg" alt="">
+                <img class="carre" src="img/outil.jpg" alt="">
+                <img class="carre" src="img/outil.jpg" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-offset-3 col-sm-offset-0 col-xs-6 col-sm-4 col-md-4 cadre cadre-web">
+            <div class="wrapper-travaux">
+              <a href="img/berlaymaster.jpg" data-toggle="lightbox" data-title="Jeu interactif sur les commissaires européens" data-footer= "Utilisation de jQuery et jQuery UI"><img class="screen" src="img/berlaymaster_min.jpg" alt="montagne"></a>
+              <h3>Berlaymaster</h3>
               <div class="outils">
                 <img class="carre" src="img/outil.jpg" alt="">
                 <img class="carre" src="img/outil.jpg" alt="">
@@ -141,7 +179,7 @@
           </div>
         </div>
       </div>
-      <div class="profil clear">
+      <div class="profil">
         <h2>About</h2>
         <hr>
         <div class="profil-passion">
@@ -182,10 +220,10 @@
         
       </footer>
     </div> <!-- /container --> 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-
     <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/ekko-lightbox.js"></script>
     <script src="js/main.js"></script>
     </body>
 </html>
